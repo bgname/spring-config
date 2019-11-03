@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: itoken-web-admin
+
+server:
+  port: 8763
+
+eureka:
+  client:
+    service-url:
+      default-zone: http://127.0.0.1:8761/eureka/
