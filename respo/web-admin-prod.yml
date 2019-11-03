@@ -3,7 +3,7 @@ spring:
     name: itoken-web-admin
 
 server:
-  port: 9763
+  port: 8886
 
 eureka:
   client:
