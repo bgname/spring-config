@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: itoken-zuul
+
+server:
+  port: 8764
+
+eureka:
+  client:
+    service-url:
+      default-zone: http://127.0.0.1:8761/eureka/
+
+zuul:
+  routes:
+    api-a:
+      path: /api/a/**
+      serviceId: itoken-web-admin
